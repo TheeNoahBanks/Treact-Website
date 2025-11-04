@@ -1350,4 +1350,33 @@ MOBILE RESPONSIVENESS ↓
         text-align: center;
         align-items: center;
     }
+    .testimonial__bot {
+        flex-direction: column;
+        align-items: center;
+        padding: 4px;
+    }
+    .testimonial__prof {
+        flex-direction: column;
+        align-items: center;
+    }
+    .prof__img {
+        height: 64px;
+        width: 64px;
+    }
+    .testimonial__details {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+    .testimonial__buttons {
+        margin-top: 32px;
+    }
+    .start__btns {
+        flex-direction: column;
+    }
+    .start__btn:nth-child(1) {
+        margin-right: 0;
+    }
+    .start__btn:nth-child(2) {
+        margin-top: 16px;
+    }
 }
